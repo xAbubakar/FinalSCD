@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+class eLearning
+{
+private: 
+	string name;
+	string pass;
+public:
+	eLearning(string n, string p)
+	{
+		name=n;
+		pass=p;
+	}
+	void setName(string n)
+	{
+		name=n;
+	}
+	void setPass(string p)
+	{
+		pass=p;
+	}
+	strong getName()
+	{
+		return name;
+	}
+	string getPass()
+	{
+		return pass;
+	}
+	void accessCourse();
+	void intractWithInstructor();
+	void colabrateWithPeers();
+	void createCourse();
+	void updateCourse();
+	void organiseCourse();
+};
+
+
+
+
+
+
+
+int main()
+{
+	return 0;
+}
