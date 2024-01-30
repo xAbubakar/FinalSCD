@@ -34,7 +34,10 @@ public:
 	}
 	void intractWithInstructor();
 	void colabrateWithPeers();
-	void createCourse();
+	void createCourse()
+	{
+		COUT<<"course is created"<<andl;
+	}
 	void updateCourse();
 	void organiseCourse();
 };
