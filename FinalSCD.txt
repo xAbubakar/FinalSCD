@@ -41,13 +41,6 @@ public:
 	void updateCourse();
 	void organiseCourse();
 };
-
-
-
-
-
-
-
 int main()
 {
 	return 0;
