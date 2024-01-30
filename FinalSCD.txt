@@ -28,7 +28,10 @@ public:
 	{
 		return pass;
 	}
-	void accessCourse();
+	void accessCourse()
+	{
+		cout<<"here you can access the course :)";
+	}
 	void intractWithInstructor();
 	void colabrateWithPeers();
 	void createCourse();
