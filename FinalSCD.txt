@@ -39,6 +39,11 @@ public:
 		COUT<<"course is created"<<andl;
 	}
 	void updateCourse();
+	void createCourse();
+	void updateCourse()
+	{
+		cout<<"The course is updated sucessfully etc."<<endl;
+	}
 	void organiseCourse();
 };
 int main()
