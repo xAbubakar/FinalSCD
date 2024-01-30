@@ -32,7 +32,10 @@ public:
 	void intractWithInstructor();
 	void colabrateWithPeers();
 	void createCourse();
-	void updateCourse();
+	void updateCourse()
+	{
+		cout<<"The course is updated sucessfully etc."<<endl;
+	}
 	void organiseCourse();
 };
 
